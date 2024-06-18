@@ -28,6 +28,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
 github_username:  NJITBlockchainLab
 logo: "/assets/images/docs-logo.png"
+favicon_ico: "/assets/images/favicon.ico"
+
+footer_content: "Copyright &copy; 2020-2024 NJIT Blockchain Lab"
 
 # Build settings
 theme: just-the-docs
