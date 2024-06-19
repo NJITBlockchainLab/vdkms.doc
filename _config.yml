@@ -34,7 +34,7 @@ footer_content: "Copyright &copy; 2020-2024 NJIT Blockchain Lab"
 
 # Build settings
 theme: just-the-docs
-color_scheme: custom
+color_scheme: fhwa
 plugins:
   - jekyll-feed
 
