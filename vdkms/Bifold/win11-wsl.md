@@ -1,8 +1,9 @@
----
+<!-- ---
 title: Windows 11 WSL 2 setup for React Native Development
 layout: default
 parent: Bifold
----
+--- -->
+
 # Windows 11 WSL 2 setup for React Native Development
 
 Following is the guide to setting up the Android SDK on WSL and enabling adb functionality for connected devices.
@@ -13,7 +14,7 @@ Please note: Even though Android Studio is not required to be installed on Windo
 # get latest Android SDK
 wget https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
 mkdir -p android-sdk/cmdline-tools
-unzip -d android-sdk/cmdline-tools/ commandlinetools-linux-11076708_latest.zip 
+unzip -d android-sdk/cmdline-tools/ commandlinetools-linux-11076708_latest.zip
 rm commandlinetools-linux-11076708_latest.zip
 mv android-sdk/cmdline-tools/cmdline-tools android-sdk/cmdline-tools/latest
 
@@ -44,6 +45,7 @@ usbipd bind --busid=<BUSID>
 usbipd attach --wsl --busid=<BUSID>
 
 ```
+
 Then in WSL, run adb server as root and the connected device should be visible on the list.
 
 ```bash
