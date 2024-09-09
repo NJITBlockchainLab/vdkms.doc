@@ -2,6 +2,7 @@
 title: Certificate Authority (CA)
 layout: default
 has_children: true
+nav_order: 2
 permalink: /certificate-authority
 ---
 
